@@ -8,7 +8,10 @@ const Div = styled.div`
 
 function App() {
   return (
-    <Div>456</Div>
+    <Div>
+      <div>456</div>
+      <i className="fa fa-camera-retro"></i>
+    </Div>
   );
 }
 
