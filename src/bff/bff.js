@@ -22,7 +22,7 @@ export const server = {
 
         return {
             error: null,
-            res: createSession(user.role),
+            res: createSession(user.role_id),
         }
     },
     async register(regLogin, regPassword) {
@@ -39,7 +39,7 @@ export const server = {
         
         return {
             error: null,
-            res: session,
+            res: createSession(user.role_id),
         };
     },
 };
